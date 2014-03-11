@@ -19,8 +19,8 @@ def unique2(lst):
 unique1([1,1,4,5,2,2])
 unique2([1,1,4,5,2,2])
 
-#Divide
 
+#Divide
 def divide (a,b):
     try:
         Result=a/b
@@ -30,3 +30,4 @@ def divide (a,b):
         
 divide(1,0)
 divide(42,21)
+
