@@ -18,3 +18,15 @@ def unique2(lst):
     
 unique1([1,1,4,5,2,2])
 unique2([1,1,4,5,2,2])
+
+#Divide
+
+def divide (a,b):
+    try:
+        Result=a/b
+        print [True, Result]
+    except ZeroDivisionError:
+        print [False, None]
+        
+divide(1,0)
+divide(42,21)
